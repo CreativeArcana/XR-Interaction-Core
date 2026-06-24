@@ -13,12 +13,7 @@
     "overrideReferences": false,
     "precompiledReferences": [],
     "autoReferenced": true,
-    "defineConstraints": [
-        "UNITY_XR_INTERACTION_TOOLKIT_AVAILABLE",
-        "META_XR_SDK_AVAILABLE",
-        "CREATIVEARCANA_AUDIO_AVAILABLE",
-        "VCONTAINER_AVAILABLE"
-    ],
+    "defineConstraints": [],
     "versionDefines": [
         {
             "name": "com.unity.xr.interaction.toolkit",
