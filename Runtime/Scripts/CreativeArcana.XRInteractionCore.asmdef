@@ -1,0 +1,45 @@
+{
+    "name": "CreativeArcana.XRInteractionCore",
+    "rootNamespace": "CreativeArcana.XRInteractionCore",
+    "references": [
+        "GUID:2a230cb87a1d3ba4a98bdc0ddae76e6c",
+        "GUID:fe685ec1767f73d42b749ea8045bfe43",
+        "GUID:b0214a6008ed146ff8f122a6a9c2f6cc",
+        "GUID:0e07b38d1affdc545bd21593f7394016"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "UNITY_XR_INTERACTION_TOOLKIT_AVAILABLE",
+        "META_XR_SDK_AVAILABLE",
+        "CREATIVEARCANA_AUDIO_AVAILABLE",
+        "VCONTAINER_AVAILABLE"
+    ],
+    "versionDefines": [
+        {
+            "name": "com.unity.xr.interaction.toolkit",
+            "expression": "",
+            "define": "UNITY_XR_INTERACTION_TOOLKIT_AVAILABLE"
+        },
+        {
+            "name": "com.meta.xr.sdk.interaction",
+            "expression": "",
+            "define": "META_XR_SDK_AVAILABLE"
+        },
+        {
+            "name": "com.creativearcana.audio",
+            "expression": "",
+            "define": "CREATIVEARCANA_AUDIO_AVAILABLE"
+        },
+        {
+            "name": "jp.hadashikick.vcontainer",
+            "expression": "",
+            "define": "VCONTAINER_AVAILABLE"
+        }
+    ],
+    "noEngineReferences": false
+}
